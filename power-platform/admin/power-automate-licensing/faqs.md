@@ -69,7 +69,7 @@ In the following screenshot, all cloud flows are covered by one Process license,
 Core business processes can vary in size and complexity, ranging from small-scale initiatives to large-scale endeavors spanning multiple flows interconnected by shared data sources. For example, invoice processing process has multiple flows handling an invoice from creation through approvals to payment. All the flows are part of one business process as they are all handling an invoice through multiple steps to closure. You only need one Process license for a core business process. This encourages microservices architecture best practices where flows can be small with fine grained functionality resulting in better maintainability.
 
 Identify the flow that starts the process and assign a Process license to that flow. Parent and child flows of the flow with Process license are covered by the Process license. These flows can be in the same solution or in different solution. 
-Non parent/child flows can manually be associated to the flow with a Process license. These flows must be in the same solution and be using the same data sources. 
+Non parent/child flows, which are in context flows, can manually be associated to the flow with a Process license. These in context flows must be in the same solution and be using the same data sources. 
 
 The flows organized as parent, child flows, in context flows are all treated as one process with one Process license assigned to the main flow and share Power Platform Request limits of Process license. 
 
